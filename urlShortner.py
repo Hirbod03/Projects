@@ -14,9 +14,9 @@ def urlGenerator():
     while 1:
         # random length 6 string generation
         newURL = ''.join((random.choice(letters)) for i in range(6))
-    # checking for duplicate urls
-    if newURL not in urls.values():
-        return newURL
+        # checking for duplicate urls
+        if newURL not in urls.values():
+            return newURL
 
 # url hash function
 def hash(url):
