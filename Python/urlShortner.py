@@ -27,7 +27,7 @@ def hash(url):
 def shortener(url):
     # obtaining dictionary key
     hashedURL = hash(url)
-    # checking for duplicacy
+    # checking for duplicity
     if hashedURL in urls:
         return urls[hashedURL]
     else:
@@ -44,4 +44,7 @@ while True:
     if url == 'q':
         break
     shortened_url = shortener(url=url)
+    #
+    # had I used a service and a domain here is where the rest of the code would go
+    #
     print(f"Shortened URL: https://short.com/{shortened_url}")
