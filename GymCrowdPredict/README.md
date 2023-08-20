@@ -21,11 +21,11 @@ Locate the sampleData.csv file and populate it with gym attendance records accor
 Open a terminal window and navigate to the directory containing the program files.
 Compile the program using the command:
 sh
-Copy code
+[Copy code]
 javac Predictor.java
 Run the program using the command:
 sh
-Copy code
+[Copy code]
 java Predictor
 Follow the on-screen menu prompts to choose one of the available functionalities.
 Input required data as prompted by the program.
