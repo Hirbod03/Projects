@@ -20,13 +20,11 @@ Locate the sampleData.csv file and populate it with gym attendance records accor
 
 Open a terminal window and navigate to the directory containing the program files.
 Compile the program using the command:
-sh
-[Copy code]
-javac Predictor.java
+> javac Predictor.java
+
 Run the program using the command:
-sh
-[Copy code]
-java Predictor
+> java Predictor
+
 Follow the on-screen menu prompts to choose one of the available functionalities.
 Input required data as prompted by the program.
 Review the output to find the best time to attend the gym based on your selected criteria.
