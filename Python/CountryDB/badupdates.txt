@@ -1,0 +1,3 @@
+Sweden;P=9,995,345;A=450,295;C = europe
+Canada;C=North America
+France;P = 64,668,129;P=64,668,150;A=541,666;C=Europe
